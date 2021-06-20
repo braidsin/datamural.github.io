@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Lappeenranta Data Mural</title>
+        <meta name="description" content="Lappeenranta Data Mural" /> 
+        
+        <!--font style-->
+        <script type="text/javascript">
+            WebFontConfig = {
+                google: { families: ['Source+Sans+Pro:400,700:latin', 'Montserrat:400,700:latin'] },
+                custom: {
+                    families: ['FontAwesome'],
+                    urls: ['//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css']
+                }
+            };
+    
+            var shortDateTimePatternForJavaScript = 'dd.MM.yyyy HH:mm:ss';
+        </script>
+    
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+        <!--vendors styles-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- bootstrap CSS/colours -->
+        <link rel="stylesheet" href="css/default.css" id="theme-color">
+    </head>
+
+    <body>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top sticky-navigation">
+        
+            <a class="navbar-brand page-scroll" href="#home">
+               <!-- project logo? <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+               -->
+                Civic Datascape
+            </a>
+           <!--language selection work in progress
+            <div class="lang-links">
+                <a href="/datamural/home/setenglish" class="sel-lang" lang="en">English</a> |
+                <a href="/datamural/home/setfinnish" lang="fi">Suomi</a>
+            </div>
+            -->
+            <!--nav menu-->
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+                <img src="img/menu_icon.png" width="32" height="24" viewBox="0 0 32 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                </img>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#home">Home</a>
+                    </li>
+                    <!--leads to data input form
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#sharedata">Data</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--tervetuloa-->
+        <section class="pt-7 pt-md-7" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto my-auto text-center">
+                        <h1>All data are local</h1>
+                        <p class="lead mt-4 mb-5">
+                           Find your data about Lappeenranta
+                        </p>
+                        <p><img class="img-fluid" src="img/mural.jpg" alt="Mural" /></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="pb-7" id="about">
+            <div class="container">
+                <hr class="my-6"/>
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h2 class="font-weight-normal">About the project</h2>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6 order-2 order-md-1 my-md-auto">
+                        <h3>Building the Civic Datascape</h3>
+                        <p class="text-muted lead">
+                            Our project is aimed at combining data literacy techniques, narrative theories, gameful design, data representations, and natural language processing to engage people with large data sets for understanding and solving issues of social and environmental concern. The broader framing for this work is a societal need to find improved ways for engaging the general public with data so that they can use it as part of evidence to both initiate and contribute to debates on developing resilient and resource-wise environments. Those who are closest to data are best placed to contribute to its interpretation. There is a benefit to bringing communal, not just individual, perspectives to the interpretation of data in certain contexts of use through processes of participatory sensemaking. To support these aims, the project will develop methods to represent data sets to facilitate better querying and recommendations via novel interfaces – a concept called the Datascape.
+                        </p>    
+                            <a href="#home" class="btn page-scroll btn-primary">Explore data</a>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="img/barchart.jpg" class="img-fluid d-block mx-auto" alt="barchart"/>
+                    </div>
+                </div>
+
+        <!--share data section work in progress
+        <section class="py-7" id="sharedata">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h2>Want to contribute your data?</h2>
+                        <div class="divider bg-primary mx-auto"></div>
+                        <p class="text-muted lead">
+                            Share some interesting insights and findings that could help the project!
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-8 mx-auto">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email"  class="form-control" placeholder="Your email address">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea rows="5"  class="form-control" placeholder="What data would you like to share?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-primary">Send your message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!--footer-->
+        <footer class="py-4 bg-black mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#home">Home</a></li>
+                            <li class="list-inline-item"><a href="#about">About</a></li>
+                        </ul>
+                        <p class="text-muted small text-uppercase mt-4">
+                            Learn more
+                        </p>
+                    <div class="col-md-6 mx-auto text-center">
+                        <a href="https://www.lut.fi/""><img src="img/LUT-LOGO-WHITE-PNG.png" width="148"height="62"></a>
+                    </div>
+                        <!--social media links
+                        <ul class="list-inline social social-dark social-sm">
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                        -->
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 text-muted text-center small-xl">
+                        &copy; 2021 - Building a Civic Datascape
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--scroll to top button-->
+        <div class="scroll-top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
